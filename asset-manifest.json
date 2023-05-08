@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/foodreactjsapp.github.io/static/css/main.334b3490.css",
+    "main.js": "/foodreactjsapp.github.io/static/js/main.1445b06d.js",
+    "static/js/787.84632156.chunk.js": "/foodreactjsapp.github.io/static/js/787.84632156.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/foodreactjsapp.github.io/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/foodreactjsapp.github.io/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/foodreactjsapp.github.io/index.html",
+    "main.334b3490.css.map": "/foodreactjsapp.github.io/static/css/main.334b3490.css.map",
+    "main.1445b06d.js.map": "/foodreactjsapp.github.io/static/js/main.1445b06d.js.map",
+    "787.84632156.chunk.js.map": "/foodreactjsapp.github.io/static/js/787.84632156.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.334b3490.css",
+    "static/js/main.1445b06d.js"
+  ]
+}
