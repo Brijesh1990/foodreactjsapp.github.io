@@ -21,7 +21,7 @@ const {id}=useParams();
 const navigate=useNavigate();
 useEffect(()=>{
 
-    axios.get(`http://localhost:4000/foodsmenu/${id}`).then((response)=> {
+    axios.get(`http://apicalldbjson.byethost24.com/db.json/${id}`).then((response)=> {
         name.current.value=response.data.name;
         price.current.value=response.data.price;
         qty.current.value=response.data.qty;

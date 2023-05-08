@@ -23,10 +23,16 @@ function FoodMenu()
 //display all foods menus
    useEffect(()=>{
            
-    axios.get("http://localhost:4000/foodsmenu").then((response) => {
+    // axios.get("http://localhost:4000/foodsmenu").then((response) => {
 
-           setAllFoods(response.data);
-    });
+    //        setAllFoods(response.data);
+    // });
+
+
+    axios.get("http://apicalldbjson.byethost24.com/db.json").then((response) => {
+
+    setAllFoods(response.data);
+});
 
    },[]);
 
@@ -68,7 +74,7 @@ const hideDeleteModalHandeler=()=>
 const confirmationDeleteHandler=()=>
 {
 
-    axios.delete(`http://localhost:4000/foodsmenu/${itemToDeleteId}`);
+    axios.delete(`http://apicalldbjson.byethost24.com/db.json/${itemToDeleteId}`);
     // setAllFoods((previousState)=> {
     //     // console.log(previousState.id);
     //     return previousState.filter((__)=>__.id!==itemToDeleteId);

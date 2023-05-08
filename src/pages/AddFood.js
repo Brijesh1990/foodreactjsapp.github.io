@@ -40,7 +40,9 @@ const addFoodHandeler=(e) =>
     //console.log(payload);
 
     // data add or post using axios 
-    axios.post("http://localhost:4000/foodsmenu",payload).then(()=>{navigate("/");
+    // axios.post("http://localhost:4000/foodsmenu",payload).then(()=>{navigate("/");  //localhost db server
+
+    axios.post("http://apicalldbjson.byethost24.com/db.json",payload).then(()=>{navigate("/");
 
     });
 
