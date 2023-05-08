@@ -1,0 +1,54 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+
+}
+.navbar-link 
+{
+    margin-left: 35%;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 2px 15px;
+}
+.navbar a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+.foodmenu img 
+{
+    width: 100%;
+    height: 200px;
+}
+.sidebar-link li 
+{
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.sidebar-link a
+{
+    font-size: 18px !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block !important;
+}
